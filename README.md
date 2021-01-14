@@ -51,7 +51,7 @@ JSON: ex: {"data": [11, 2, 99], "order": 'asc'}
 Description: return a sorted list
 ```
 
-**Run Functional tests:**
+**Run functional tests:**
 ```
 python test_services.py
 ```
