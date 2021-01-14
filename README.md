@@ -22,10 +22,11 @@
 
 pip install -r requirements.txt
 
-## Run:
+## Run (Python 3.6 compatible):
 **Serve Flask app back-end :**
 
 cd <path_to_root_folder_of_project>
+
 python flask_sorting_service.py
 
 **API:**
