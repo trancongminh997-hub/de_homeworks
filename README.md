@@ -18,6 +18,17 @@
         
 
 
+## Project tructure
+
+    .
+    ├── requirements.txt                # Dependent package requirements
+    ├── configs.yaml                    # Configuration file
+    ├── flask_sorting_service.py        # Source file
+    ├── test_services.py                # Test file
+    ├── util.py                         # Utilities
+    └── README.md
+
+
 ## Install:
 
 pip install -r requirements.txt
