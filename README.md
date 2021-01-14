@@ -30,29 +30,29 @@
 
 
 ## Install:
-
+```
 pip install -r requirements.txt
-
+```
 ## Run (Python 3.6 compatible):
 **Serve Flask app back-end :**
 
+```
 cd <path_to_root_folder_of_project>
-
 python flask_sorting_service.py
+```
+
 
 **API:**
 
-http://\<host>:5000/sorting
-
+```
+http://<host>:5000/sorting
 Methods: POST
-
 JSON: ex: {"data": [11, 2, 99], "order": 'asc'}
-
 Description: return a sorted list
-
+```
 
 **Run Functional tests:**
-
+```
 python test_services.py
-
+```
 
