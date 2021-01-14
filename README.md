@@ -5,7 +5,7 @@
 
 * Support ordering the sorted list return by api in ASCENDING or DESCENDING 
 
-##Notes
+## Notes
 1. Sending POST request with json body include  in the form a list e.g. { [1, 7, 2, 6] } under variable name `data`, and `order` variable which  receive one value between `asc` and `desc` 
 2. Response includes the sorted list under name `sorted_data` 
 3. This api endpoint limits payload by `2 MB`
@@ -26,7 +26,6 @@ pip install -r requirements.txt
 **Serve Flask app back-end :**
 
 cd <path_to_root_folder_of_project>
-
 python flask_sorting_service.py
 
 **API:**
