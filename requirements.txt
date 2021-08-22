@@ -1,4 +1,4 @@
 Flask==1.1.2
 Flask-Limiter==1.4
 PyYAML==5.2
-requests==2.24.0cls
+requests==2.24.0
